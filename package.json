@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/paulmussen14-ui/nimbustrack/issues"
   },
-  "homepage": "https://github.com/paulmussen14-ui/nimbustrack#readme"
+  "homepage": "https://github.com/paulmussen14-ui/nimbustrack#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0"
+  }
 }
