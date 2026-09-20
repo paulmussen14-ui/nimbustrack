@@ -22,3 +22,6 @@ jobs:
 
       - name: Run ESLint
         run: npx eslint index.js
+
+      - name: Run tests
+        run: npm test
