@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.11.0",
-    "globals": "^17.12.0"
+    "globals": "^17.12.0",
+    "vitest": "^5.0.1"
   }
 }
