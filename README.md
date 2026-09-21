@@ -1,7 +1,20 @@
 # NimbusTrack
 
-Aplicacion de seguimiento de tareas (to-do list) construida con Node.js como parte de una practica DevOps.
+Aplicación de seguimiento de tareas (To-Do list) construida con Node.js como parte de una práctica de DevOps.
 
-## Como correr el proyecto
+## API en producción
 
-(instrucciones proximamente)
+🔗 https://nimbustrack.onrender.com
+
+## Endpoints
+
+- `GET /` — estado de la API
+- `GET /tareas` — lista todas las tareas
+- `POST /tareas` — crea una tarea nueva (body: `{ "texto": "..." }`)
+
+## Cómo correr el proyecto localmente
+
+npm install
+npm start
+
+El servidor corre en `http://localhost:3000`.
