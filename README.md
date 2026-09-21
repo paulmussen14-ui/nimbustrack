@@ -1,3 +1,5 @@
+![CI](https://github.com/paulmussen14-ui/nimbustrack/actions/workflows/ci.yml/badge.svg)
+
 # NimbusTrack
 
 Aplicación de seguimiento de tareas (To-Do list) construida con Node.js como parte de una práctica de DevOps.
