@@ -27,4 +27,4 @@ jobs:
         run: npm test
 
       - name: Build Docker image
-        run: docker build -t nimbustrack
+        run: docker build -t nimbustrack .
